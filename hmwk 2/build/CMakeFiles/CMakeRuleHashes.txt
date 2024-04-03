@@ -1,13 +1,4 @@
 # Hashes of file build rules.
-60b4dc45294c27de1bb5895670e1ce57 blink/CMakeFiles/ELF2UF2Build
-ab6730c8bf95f154c58c0beb956fde6e blink/CMakeFiles/ELF2UF2Build-complete
-d49197306c2a1229e0eb7233fdba0380 blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
-5aeb3bd6c66ee1f495528da3015f5056 blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
-8d700eb65f1c261b8a67a45e1aba175f blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
-89bb1e0912c0c4ca179cdf4e18d54d6e blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
-530e98d485f110a326ddc1afcd34f207 blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
-368b9654ba443ff6c6466a53c4d9df58 blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
-05b16a6968d0429fcbeda05b8d9d1494 blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
 07cee4019705e00390bde04b04ea4a02 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin
 07cee4019705e00390bde04b04ea4a02 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm
 3d81ffdade26abf39811855d0d47534c pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
@@ -23,3 +14,12 @@ f789ca1ecb6001f7e4736aad43d90912 pico-sdk/src/rp2_common/pico_cyw43_driver/pioas
 571523ad496dc583b45be5a6b64aad4f pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
 6cf9afbe8c7e88cd9886df237347b9dd pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
 da54056c7b059b7605fcd134d5ee483e pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
+5a728dc36c7c300b900ac086222fc13b project/CMakeFiles/ELF2UF2Build
+986826ee48bccbe9e04b909833b685fe project/CMakeFiles/ELF2UF2Build-complete
+d49197306c2a1229e0eb7233fdba0380 project/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
+0dafdbf0e546462ed56e666b3f2869a3 project/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
+b788800c5a6472b6c4e2c131b8f4116c project/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
+89bb1e0912c0c4ca179cdf4e18d54d6e project/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
+9052bf7f4986ef0d72812ddeb848e769 project/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
+a9b3b57a46328a3ea5d29b3e41bec965 project/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
+1c4f33e9e4ac59ac6a3baa7621615a30 project/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
