@@ -195,7 +195,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build"
+			"value" : "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -695,7 +695,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/CMakeFiles/pkgRedirects"
+			"value" : "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -755,7 +755,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2"
+			"value" : "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1783,7 +1783,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build"
+			"value" : "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build"
 		},
 		{
 			"name" : "nick_pico_examples_IS_TOP_LEVEL",
@@ -1807,7 +1807,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2"
+			"value" : "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2"
 		},
 		{
 			"name" : "pico-sdk-tools_DIR",
@@ -1831,7 +1831,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk"
+			"value" : "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk"
 		},
 		{
 			"name" : "pico_sdk_IS_TOP_LEVEL",

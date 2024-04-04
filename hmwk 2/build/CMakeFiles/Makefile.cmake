@@ -7,15 +7,15 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/CMakeLists.txt"
+  "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/CMakeLists.txt"
   "CMakeFiles/3.29.0/CMakeASMCompiler.cmake"
   "CMakeFiles/3.29.0/CMakeCCompiler.cmake"
   "CMakeFiles/3.29.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.29.0/CMakeSystem.cmake"
   "pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake"
   "project/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
-  "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/pico_sdk_import.cmake"
-  "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/project/CMakeLists.txt"
+  "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/pico_sdk_import.cmake"
+  "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/project/CMakeLists.txt"
   "/Users/nikhilnayak/Downloads/pico/pico-sdk/CMakeLists.txt"
   "/Users/nikhilnayak/Downloads/pico/pico-sdk/cmake/Platform/PICO.cmake"
   "/Users/nikhilnayak/Downloads/pico/pico-sdk/cmake/pico_pre_load_platform.cmake"

@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 3/build/pico-sdk/tools/cmake_install.cmake")
-  include("/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 3/build/pico-sdk/src/cmake_install.cmake")
-  include("/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 3/build/pico-sdk/docs/cmake_install.cmake")
+  include("/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 3/build/pico-sdk/tools/cmake_install.cmake")
+  include("/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 3/build/pico-sdk/src/cmake_install.cmake")
+  include("/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 3/build/pico-sdk/docs/cmake_install.cmake")
 
 endif()
 

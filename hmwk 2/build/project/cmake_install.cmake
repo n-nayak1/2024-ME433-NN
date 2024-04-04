@@ -1,4 +1,4 @@
-# Install script for directory: /Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/project
+# Install script for directory: /Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

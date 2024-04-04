@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2"
+CMAKE_SOURCE_DIR = "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build"
+CMAKE_BINARY_DIR = "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build"
 
 # Utility rule file for PioasmBuild.
 
@@ -76,48 +76,48 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete: pico-
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Completed 'PioasmBuild'"
-	cd "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E make_directory "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles"
-	cd "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete"
-	cd "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-done"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Completed 'PioasmBuild'"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E make_directory "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-done"
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'PioasmBuild'"
-	cd "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pioasm" && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'PioasmBuild'"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pioasm" && $(MAKE)
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-cfgcmd.txt
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-cache-Debug.cmake
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'PioasmBuild'"
-	cd "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pioasm" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make "-GUnix Makefiles" "-C/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-cache-Debug.cmake" -S /Users/nikhilnayak/Downloads/pico/pico-sdk/tools/pioasm -B "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pioasm"
-	cd "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pioasm" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'PioasmBuild'"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pioasm" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make "-GUnix Makefiles" "-C/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-cache-Debug.cmake" -S /Users/nikhilnayak/Downloads/pico/pico-sdk/tools/pioasm -B "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pioasm"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pioasm" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure"
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-source_dirinfo.txt
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'PioasmBuild'"
-	cd "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E echo_append
-	cd "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'PioasmBuild'"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E echo_append
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download"
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'PioasmBuild'"
-	cd "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pioasm" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E echo_append
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'PioasmBuild'"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pioasm" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E echo_append
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'PioasmBuild'"
-	cd "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -Dcfgdir= -P "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake"
-	cd "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'PioasmBuild'"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -Dcfgdir= -P "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir"
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch-info.txt
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'PioasmBuild'"
-	cd "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E echo_append
-	cd "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'PioasmBuild'"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E echo_append
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch"
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update-info.txt
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'PioasmBuild'"
-	cd "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E echo_append
-	cd "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'PioasmBuild'"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E echo_append
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update"
 
 PioasmBuild: pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild
 PioasmBuild: pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete
@@ -136,10 +136,10 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/build: Pioa
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/build
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/clean:
-	cd "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && $(CMAKE_COMMAND) -P CMakeFiles/PioasmBuild.dir/cmake_clean.cmake
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && $(CMAKE_COMMAND) -P CMakeFiles/PioasmBuild.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/clean
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/depend:
-	cd "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2" /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_cyw43_driver "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build" "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2" /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_cyw43_driver "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build" "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/depend
 

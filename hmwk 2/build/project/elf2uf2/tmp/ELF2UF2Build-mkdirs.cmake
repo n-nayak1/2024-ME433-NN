@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "/Users/nikhilnayak/Downloads/pico/pico-sdk/tools/elf2uf2"
-  "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/elf2uf2"
-  "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/project/elf2uf2"
-  "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/project/elf2uf2/tmp"
-  "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/project/elf2uf2/src/ELF2UF2Build-stamp"
-  "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/project/elf2uf2/src"
-  "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/project/elf2uf2/src/ELF2UF2Build-stamp"
+  "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/elf2uf2"
+  "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/project/elf2uf2"
+  "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/project/elf2uf2/tmp"
+  "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/project/elf2uf2/src/ELF2UF2Build-stamp"
+  "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/project/elf2uf2/src"
+  "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/project/elf2uf2/src/ELF2UF2Build-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/project/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/project/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk 2/build/project/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 2/build/project/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
 endif()

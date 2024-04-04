@@ -31,9 +31,9 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/com
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
- /Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk\ 2/build/generated/pico_base/pico/version.h \
+ /Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk\ 2/build/generated/pico_base/pico/version.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /Users/nikhilnayak/Documents/GitHub/2024-ME433-NN/hmwk\ 2/build/generated/pico_base/pico/config_autogen.h \
+ /Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk\ 2/build/generated/pico_base/pico/config_autogen.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
