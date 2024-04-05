@@ -295,10 +295,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "/opt/homebrew/bin/arm-none-eabi-g++"
 		},
 		{
@@ -423,10 +423,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "/opt/homebrew/bin/arm-none-eabi-gcc"
 		},
 		{
@@ -1507,7 +1507,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs"
+			"value" : " /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PATHS",

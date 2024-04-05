@@ -5,6 +5,19 @@
 #define button_pin 15
 #define LED_PIN 25
 
+void gpio_set_function(uint gpio, enum gpio_function fn) {
+    check_gpio_param(gpio);
+    invalid_params_if(GPIO, ((uint32_t)fn << IO_BANK0_GPIO0_CTRL_FUNCSEL_LSB) & ~IO_BANK0_GPIO0_CTRL_FUNCSEL_BITS);
+    // Set input enable on, output disable off
+    hw_write_masked(&padsbank0_hw->io[gpio],
+                   PADS_BANK0_GPIO0_IE_BITS,
+                   PADS_BANK0_GPIO0_IE_BITS | PADS_BANK0_GPIO0_OD_BITS
+    );
+    // Zero all fields apart from fsel; we want this IO to do what the peripheral tells it.
+    // This doesn't affect e.g. pullup/pulldown, as these are in pad controls.
+    iobank0_hw->io[gpio].ctrl = fn << IO_BANK0_GPIO0_CTRL_FUNCSEL_LSB;
+}
+
 int main() {
     stdio_init_all();
 
