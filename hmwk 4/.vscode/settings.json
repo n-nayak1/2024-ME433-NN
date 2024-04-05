@@ -1,0 +1,9 @@
+{
+    "cmake.environment": {
+    "PICO_SDK_PATH":"/Users/nikhilnayak/Downloads/pico/pico-sdk"
+    },
+    "files.associations": {
+      "adc.h": "c"
+    },
+
+  }
