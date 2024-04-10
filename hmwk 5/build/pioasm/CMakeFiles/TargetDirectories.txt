@@ -1,0 +1,3 @@
+/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 5/build/pioasm/CMakeFiles/pioasm.dir
+/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 5/build/pioasm/CMakeFiles/edit_cache.dir
+/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 5/build/pioasm/CMakeFiles/rebuild_cache.dir
