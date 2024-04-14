@@ -17,6 +17,11 @@ project/CMakeFiles/project.dir/main.c.obj: \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/string.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/math.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_base/include/pico.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
@@ -59,6 +64,10 @@ project/CMakeFiles/project.dir/main.c.obj: \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h

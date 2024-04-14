@@ -473,7 +473,7 @@
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/include"
+					"path" : "/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/include"
 				}
 			],
 			"language" : "C",
@@ -917,7 +917,7 @@
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/include"
+					"path" : "/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/include"
 				}
 			],
 			"language" : "ASM",
@@ -1322,7 +1322,7 @@
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/include"
+					"path" : "/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/include"
 				}
 			],
 			"language" : "CXX",
@@ -2703,7 +2703,7 @@
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c",
+			"path" : "/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -792,30 +792,6 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.s:
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 4/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.s
 
-Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-.PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj
-
-# target to build an object file
-Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 4/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-.PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-
-Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-.PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i
-
-# target to preprocess a source file
-Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 4/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-.PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-
-Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
-.PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s
-
-# target to generate assembly for a file
-Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 4/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
-.PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
-
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj
 
@@ -975,6 +951,30 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: Use
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 4/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+
+Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+.PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj
+
+# target to build an object file
+Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj:
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 4/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+.PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+
+Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+.PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i
+
+# target to preprocess a source file
+Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i:
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 4/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+.PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+
+Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+.PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s
+
+# target to generate assembly for a file
+Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s:
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 4/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+.PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
@@ -1739,9 +1739,6 @@ help:
 	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.obj"
 	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.i"
 	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.s"
-	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj"
-	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i"
-	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s"
 	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
 	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i"
 	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s"
@@ -1762,6 +1759,9 @@ help:
 	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
 	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"
+	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj"
+	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i"
+	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s"
 	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
 	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i"
 	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s"
