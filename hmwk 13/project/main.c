@@ -156,7 +156,7 @@ int main(void)
 
   while (1)
   {
-    tud_task(); // tinyusb device task
+    tud_task(); 
     led_blinking_task();
 
     hid_task();
@@ -236,7 +236,6 @@ static void send_hid_report(uint8_t report_id, uint32_t btn)
       int8_t x_delta = new_vals[0] * 10;
       int8_t y_delta = new_vals[1] * -10;
 
-      // no button, right + down, no scroll, no pan
       tud_hid_mouse_report(REPORT_ID_MOUSE, 0x00, x_delta, y_delta, 0, 0);
     }
     break;

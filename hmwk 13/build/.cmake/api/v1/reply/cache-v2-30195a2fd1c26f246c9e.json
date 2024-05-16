@@ -195,7 +195,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13 inter/build"
+			"value" : "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -695,7 +695,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13 inter/build/CMakeFiles/pkgRedirects"
+			"value" : "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -755,7 +755,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13 inter"
+			"value" : "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1507,7 +1507,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs"
+			"value" : " /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/cmsis /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PATHS",
@@ -1783,7 +1783,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13 inter/build"
+			"value" : "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build"
 		},
 		{
 			"name" : "nick_pico_examples_IS_TOP_LEVEL",
@@ -1807,7 +1807,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13 inter"
+			"value" : "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13"
 		},
 		{
 			"name" : "pico-sdk-tools_DIR",
@@ -1831,7 +1831,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13 inter/build/pico-sdk"
+			"value" : "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/pico-sdk"
 		},
 		{
 			"name" : "pico_sdk_IS_TOP_LEVEL",
@@ -1856,6 +1856,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "/Users/nikhilnayak/Downloads/pico/pico-sdk"
+		},
+		{
+			"name" : "project_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project"
+		},
+		{
+			"name" : "project_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "project_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/project"
 		}
 	],
 	"kind" : "cache",

@@ -1557,9 +1557,9 @@ Discarded input sections
                 0x00000000       0x24 CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .text.board_getchar
                 0x00000000        0xa CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
- .text          0x00000000        0x0 /var/folders/4r/v625fp2n1n13h38982r34bxc0000gn/T//ccKz2UMz.o
- .data          0x00000000        0x0 /var/folders/4r/v625fp2n1n13h38982r34bxc0000gn/T//ccKz2UMz.o
- .bss           0x00000000        0x0 /var/folders/4r/v625fp2n1n13h38982r34bxc0000gn/T//ccKz2UMz.o
+ .text          0x00000000        0x0 /var/folders/4r/v625fp2n1n13h38982r34bxc0000gn/T//ccqfCsjJ.o
+ .data          0x00000000        0x0 /var/folders/4r/v625fp2n1n13h38982r34bxc0000gn/T//ccqfCsjJ.o
+ .bss           0x00000000        0x0 /var/folders/4r/v625fp2n1n13h38982r34bxc0000gn/T//ccqfCsjJ.o
  .data          0x00000000        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-calloc.o)
@@ -1878,7 +1878,7 @@ LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-no
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /var/folders/4r/v625fp2n1n13h38982r34bxc0000gn/T//ccKz2UMz.o
+ .boot2         0x10000000      0x100 /var/folders/4r/v625fp2n1n13h38982r34bxc0000gn/T//ccqfCsjJ.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3473,7 +3473,7 @@ LOAD CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyus
 LOAD CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
-LOAD /var/folders/4r/v625fp2n1n13h38982r34bxc0000gn/T//ccKz2UMz.o
+LOAD /var/folders/4r/v625fp2n1n13h38982r34bxc0000gn/T//ccqfCsjJ.o
 LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -3592,7 +3592,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000007ce       0x2c CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .ARM.attributes
-                0x000007fa       0x22 /var/folders/4r/v625fp2n1n13h38982r34bxc0000gn/T//ccKz2UMz.o
+                0x000007fa       0x22 /var/folders/4r/v625fp2n1n13h38982r34bxc0000gn/T//ccqfCsjJ.o
  .ARM.attributes
                 0x0000081c       0x1e /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
