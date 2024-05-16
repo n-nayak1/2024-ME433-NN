@@ -35,9 +35,17 @@ project/CMakeFiles/project.dir/main.c.obj: \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+ /Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk\ 13/project/tusb_config.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/osal/osal.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_base/include/pico.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -53,16 +61,6 @@ project/CMakeFiles/project.dir/main.c.obj: \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_base/include/pico/error.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/osal/osal.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
@@ -77,6 +75,30 @@ project/CMakeFiles/project.dir/main.c.obj: \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
  /Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk\ 13/project/usb_descriptors.h

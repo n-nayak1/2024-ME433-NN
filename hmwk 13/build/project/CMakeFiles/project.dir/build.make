@@ -97,38 +97,24 @@ project/CMakeFiles/project.dir/usb_descriptors.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/usb_descriptors.c.s"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/project/usb_descriptors.c" -o CMakeFiles/project.dir/usb_descriptors.c.s
 
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: project/CMakeFiles/project.dir/flags.make
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: project/CMakeFiles/project.dir/flags.make
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: project/CMakeFiles/project.dir/flags.make
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -142,7 +128,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -156,7 +142,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -167,93 +153,10 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: project/CMakeFiles/project.dir/flags.make
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: project/CMakeFiles/project.dir/flags.make
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj: project/CMakeFiles/project.dir/flags.make
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.i"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.i
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.s"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.s
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: project/CMakeFiles/project.dir/flags.make
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: project/CMakeFiles/project.dir/flags.make
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.i
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.s
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: project/CMakeFiles/project.dir/flags.make
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
-
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -267,7 +170,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/com
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -281,7 +184,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/com
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -292,10 +195,93 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: project/CMakeFiles/project.dir/flags.make
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: project/CMakeFiles/project.dir/flags.make
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj: project/CMakeFiles/project.dir/flags.make
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.i"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.i
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.s"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.s
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: project/CMakeFiles/project.dir/flags.make
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: project/CMakeFiles/project.dir/flags.make
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: project/CMakeFiles/project.dir/flags.make
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -309,7 +295,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/com
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -323,7 +309,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/com
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -334,24 +320,10 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/com
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.s"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.s
 
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: project/CMakeFiles/project.dir/flags.make
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -362,10 +334,24 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: project/CMakeFiles/project.dir/flags.make
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -379,7 +365,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -393,7 +379,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -407,7 +393,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -418,9 +404,37 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: project/CMakeFiles/project.dir/flags.make
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: project/CMakeFiles/project.dir/flags.make
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -434,7 +448,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -448,7 +462,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -461,7 +475,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -475,7 +489,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -488,7 +502,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
@@ -501,7 +515,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
@@ -515,7 +529,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -529,7 +543,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -542,7 +556,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
@@ -555,7 +569,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -568,7 +582,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
@@ -582,7 +596,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -596,7 +610,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -609,7 +623,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
@@ -623,7 +637,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -636,7 +650,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -649,7 +663,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
@@ -663,7 +677,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -677,7 +691,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -691,7 +705,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -702,52 +716,24 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: project/CMakeFiles/project.dir/flags.make
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: project/CMakeFiles/project.dir/flags.make
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: project/CMakeFiles/project.dir/flags.make
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: project/CMakeFiles/project.dir/flags.make
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-
-project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -761,7 +747,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -775,7 +761,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -789,7 +775,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tin
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -803,7 +789,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tin
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -817,7 +803,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tin
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -831,7 +817,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tin
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -845,7 +831,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tin
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -859,7 +845,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tin
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -873,7 +859,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tin
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -887,7 +873,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tin
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -901,7 +887,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tin
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -915,7 +901,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tin
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_62) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -929,7 +915,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tin
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_63) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_62) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -943,7 +929,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tin
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_64) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_63) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -957,7 +943,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tin
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_65) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_64) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -971,7 +957,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tin
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_65) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -985,7 +971,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tin
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -999,7 +985,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tin
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1013,7 +999,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tin
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_69) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1027,7 +1013,7 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tin
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_70) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_69) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1038,33 +1024,48 @@ project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
 	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj: project/CMakeFiles/project.dir/flags.make
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj: /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj: project/CMakeFiles/project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_70) "Building C object project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj -MF CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj.d -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj -c /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c > CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
+
+project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s"
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project" && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c -o CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
+
 # Object files for target project
 project_OBJECTS = \
 "CMakeFiles/project.dir/main.c.obj" \
 "CMakeFiles/project.dir/usb_descriptors.c.obj" \
-"CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
-"CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
+"CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
+"CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj" \
+"CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
+"CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
-"CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj" \
-"CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
-"CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj" \
-"CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
+"CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
+"CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
+"CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
@@ -1086,9 +1087,7 @@ project_OBJECTS = \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
-"CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
-"CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
+"CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
@@ -1109,36 +1108,38 @@ project_OBJECTS = \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
 "CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
-"CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+"CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
+"CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj"
 
 # External object files for target project
 project_EXTERNAL_OBJECTS =
 
 project/project.elf: project/CMakeFiles/project.dir/main.c.obj
 project/project.elf: project/CMakeFiles/project.dir/usb_descriptors.c.obj
-project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
+project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
-project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj
-project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -1160,9 +1161,7 @@ project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
@@ -1184,6 +1183,7 @@ project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+project/project.elf: project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
 project/project.elf: project/CMakeFiles/project.dir/build.make
 project/project.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 project/project.elf: project/CMakeFiles/project.dir/link.txt

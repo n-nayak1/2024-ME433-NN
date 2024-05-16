@@ -1,10 +1,7 @@
 # Hashes of file build rules.
-1f5ce506b34e7ac750eeeef51402d7a6 dev_hid_composite/CMakeFiles/ELF2UF2Build
 cade504e3d76ac10ec39902fe3a3a6fb dev_hid_composite/CMakeFiles/ELF2UF2Build-complete
-f7e8ef378989f77927d24af1ca5dfe4f dev_hid_composite/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
 96facc86625c94779b38735d985cfc91 dev_hid_composite/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 065484a6d0004c0788ab02bfee7d32ce dev_hid_composite/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
-ad377a2fd0c0861bb7f1b89032e61a28 dev_hid_composite/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
 eca3a116bd63052da0770ff07f1621b4 dev_hid_composite/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
 7b79addff4678a30712ad6f9a2482df9 dev_hid_composite/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
 bfb8e7cf644606b478de6ab9a949f86a dev_hid_composite/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
@@ -23,9 +20,12 @@ bd4f99a000a21f7bba1a67b9161109f8 pico-sdk/src/rp2_common/pico_cyw43_driver/pioas
 ab246a89b42143d8e333f12a5ed53ed4 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
 91d52ad0b7933f3ff8d918526fe5a4c2 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
 4a2d288ebe5c81ec0b58859213f570cf pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
+e44f06617ba0f62a4e68a04d3d553d50 project/CMakeFiles/ELF2UF2Build
 f553d5fb24fbdd705fd120d619d4e557 project/CMakeFiles/ELF2UF2Build-complete
+f7e8ef378989f77927d24af1ca5dfe4f project/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
 c88e11efaef39fa2763ade8e1c4ec3f6 project/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 b614b4353517e3bc2d8d9825c10e235a project/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
+ad377a2fd0c0861bb7f1b89032e61a28 project/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
 456cb71478d7b49601e0069d219e1e7e project/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
 867ca834057124248c73e2405bfc5e5d project/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
 39ca380e111c9050e27d7a4ce56bd6b0 project/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update

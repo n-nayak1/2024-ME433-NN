@@ -117,18 +117,18 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-project/CMakeFiles/dev_hid_composite.dir/rule:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project/CMakeFiles/dev_hid_composite.dir/rule
-.PHONY : project/CMakeFiles/dev_hid_composite.dir/rule
+project/CMakeFiles/project.dir/rule:
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project/CMakeFiles/project.dir/rule
+.PHONY : project/CMakeFiles/project.dir/rule
 
 # Convenience name for target.
-dev_hid_composite: project/CMakeFiles/dev_hid_composite.dir/rule
-.PHONY : dev_hid_composite
+project: project/CMakeFiles/project.dir/rule
+.PHONY : project
 
 # fast build rule for target.
-dev_hid_composite/fast:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/build
-.PHONY : dev_hid_composite/fast
+project/fast:
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/build
+.PHONY : project/fast
 
 # Convenience name for target.
 project/CMakeFiles/ELF2UF2Build.dir/rule:
@@ -149,7 +149,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.obj: 
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.i: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
@@ -157,7 +157,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.i: Us
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.s: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
@@ -165,7 +165,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.s: Us
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
@@ -173,7 +173,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_devi
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
@@ -181,7 +181,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_devi
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
@@ -189,7 +189,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_devi
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
@@ -197,7 +197,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
@@ -205,7 +205,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
@@ -213,7 +213,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
@@ -221,7 +221,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
@@ -229,7 +229,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
@@ -237,7 +237,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
@@ -245,7 +245,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_devic
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
@@ -253,7 +253,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_devic
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
@@ -261,7 +261,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_devic
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
@@ -269,7 +269,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
@@ -277,7 +277,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
@@ -285,7 +285,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
@@ -293,7 +293,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
@@ -301,7 +301,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
@@ -309,7 +309,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
@@ -317,7 +317,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
@@ -325,7 +325,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
@@ -333,7 +333,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
@@ -341,7 +341,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_de
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
@@ -349,7 +349,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_de
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
@@ -357,7 +357,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_de
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
@@ -365,7 +365,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
@@ -373,7 +373,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
@@ -381,7 +381,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
@@ -389,7 +389,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_de
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
@@ -397,7 +397,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_de
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
@@ -405,7 +405,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_de
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
@@ -413,7 +413,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_de
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
@@ -421,7 +421,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_de
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
@@ -429,7 +429,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_de
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
@@ -437,7 +437,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_devi
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
@@ -445,7 +445,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_devi
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
@@ -453,7 +453,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_devi
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
@@ -461,7 +461,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: 
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
@@ -469,7 +469,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: Us
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
@@ -477,7 +477,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: Us
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
@@ -485,7 +485,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: Users
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
@@ -493,7 +493,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: Users/n
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.s: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
@@ -501,7 +501,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.s: Users/n
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
@@ -509,7 +509,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.ob
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
@@ -517,7 +517,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i:
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
@@ -525,7 +525,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s:
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
@@ -533,7 +533,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/r
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
@@ -541,7 +541,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/r
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
@@ -549,7 +549,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/r
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
@@ -557,7 +557,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/r
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
@@ -565,7 +565,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/r
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
@@ -573,7 +573,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/r
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
@@ -581,7 +581,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.obj: Users/nikhil
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.i: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
@@ -589,7 +589,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.i: Users/nikhilna
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.s: Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
@@ -597,7 +597,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.s: Users/nikhilna
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
@@ -605,7 +605,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -613,7 +613,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -621,7 +621,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -629,7 +629,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.obj: Us
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -637,7 +637,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.i: User
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -645,7 +645,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.s: User
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
@@ -653,7 +653,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.obj: Users/
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -661,7 +661,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.i: Users/ni
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -669,7 +669,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.s: Users/ni
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -677,7 +677,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.obj: Users/ni
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.i
@@ -685,7 +685,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.i: Users/nikh
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.s
@@ -693,7 +693,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.s: Users/nikh
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
@@ -701,7 +701,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.obj: Users/n
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.i
@@ -709,7 +709,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.i: Users/nik
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.s
@@ -717,7 +717,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.s: Users/nik
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/time.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -725,7 +725,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.ob
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -733,7 +733,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.i:
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -741,7 +741,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.s:
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -749,7 +749,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.obj: Use
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.i
@@ -757,7 +757,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.i: Users
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.s
@@ -765,7 +765,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.s: Users
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj
@@ -773,7 +773,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.obj: Users/
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.i
@@ -781,7 +781,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.i: Users/ni
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.s
@@ -789,7 +789,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.s: Users/ni
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj
@@ -797,7 +797,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.obj: Users/
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.i
@@ -805,7 +805,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.i: Users/ni
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.s
@@ -813,7 +813,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.s: Users/ni
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -821,7 +821,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.ob
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
@@ -829,7 +829,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i:
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -837,7 +837,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s:
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -845,7 +845,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -853,7 +853,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -861,7 +861,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -869,7 +869,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divide
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
@@ -877,7 +877,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.ob
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
@@ -885,7 +885,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i:
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
@@ -893,7 +893,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s:
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -901,7 +901,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj:
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -909,7 +909,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: U
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -917,15 +917,39 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: U
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+
+Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+.PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj
+
+# target to build an object file
+Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj:
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+.PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+
+Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i
+
+# target to preprocess a source file
+Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s
+
+# target to generate assembly for a file
+Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -933,7 +957,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: Use
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -941,7 +965,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: Use
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -949,7 +973,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handle
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
@@ -957,7 +981,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: U
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -965,7 +989,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: Use
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -973,7 +997,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: Use
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -981,7 +1005,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj:
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -989,7 +1013,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: U
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -997,7 +1021,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: U
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
@@ -1005,7 +1029,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.ob
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -1013,7 +1037,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i:
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -1021,7 +1045,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s:
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -1029,7 +1053,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj:
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -1037,7 +1061,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: U
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -1045,7 +1069,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: U
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -1053,7 +1077,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj:
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -1061,7 +1085,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: U
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -1069,7 +1093,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: U
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -1077,7 +1101,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watch
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -1085,7 +1109,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watch
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -1093,7 +1117,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watch
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -1101,7 +1125,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj:
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -1109,7 +1133,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: U
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -1117,7 +1141,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: U
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -1125,7 +1149,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_ae
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -1133,7 +1157,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.ob
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -1141,7 +1165,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i:
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -1149,7 +1173,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s:
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
@@ -1157,7 +1181,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider.ob
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -1165,7 +1189,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeab
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
@@ -1173,7 +1197,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
@@ -1181,7 +1205,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -1189,7 +1213,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -1197,7 +1221,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -1205,7 +1229,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -1213,7 +1237,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -1221,7 +1245,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_r
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
@@ -1229,7 +1253,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_dev
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
@@ -1237,7 +1261,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_dev
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
@@ -1245,7 +1269,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_dev
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -1253,7 +1277,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
@@ -1261,7 +1285,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_r
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
@@ -1269,7 +1293,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_r
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -1277,7 +1301,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_r
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -1285,7 +1309,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.o
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -1293,7 +1317,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.i
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -1301,7 +1325,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.s
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
@@ -1309,7 +1333,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -1317,7 +1341,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -1325,7 +1349,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
@@ -1333,7 +1357,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -1341,7 +1365,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -1349,7 +1373,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_ae
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -1357,7 +1381,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
@@ -1365,7 +1389,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -1373,7 +1397,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -1381,7 +1405,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj:
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -1389,7 +1413,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: U
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -1397,7 +1421,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: U
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -1405,7 +1429,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.ob
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -1413,7 +1437,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i:
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -1421,7 +1445,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s:
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
@@ -1429,7 +1453,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/bina
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
@@ -1437,7 +1461,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/bina
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -1445,7 +1469,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/bina
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1453,7 +1477,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
@@ -1461,7 +1485,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
@@ -1469,7 +1493,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -1477,7 +1501,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -1485,7 +1509,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: U
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1493,7 +1517,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: Use
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1501,7 +1525,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: Use
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
@@ -1509,7 +1533,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_u
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
@@ -1517,7 +1541,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_u
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
@@ -1525,7 +1549,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_u
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1533,7 +1557,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj:
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1541,7 +1565,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: U
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1549,7 +1573,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: U
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
@@ -1557,7 +1581,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_i
 
 # target to build an object file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
@@ -1565,7 +1589,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_i
 
 # target to preprocess a source file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
@@ -1573,7 +1597,7 @@ Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_i
 
 # target to generate assembly for a file
 Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
 main.obj: main.c.obj
@@ -1581,7 +1605,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/main.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -1589,7 +1613,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/main.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -1597,7 +1621,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/main.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/main.c.s
 .PHONY : main.c.s
 
 usb_descriptors.obj: usb_descriptors.c.obj
@@ -1605,7 +1629,7 @@ usb_descriptors.obj: usb_descriptors.c.obj
 
 # target to build an object file
 usb_descriptors.c.obj:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/usb_descriptors.c.obj
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/usb_descriptors.c.obj
 .PHONY : usb_descriptors.c.obj
 
 usb_descriptors.i: usb_descriptors.c.i
@@ -1613,7 +1637,7 @@ usb_descriptors.i: usb_descriptors.c.i
 
 # target to preprocess a source file
 usb_descriptors.c.i:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/usb_descriptors.c.i
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/usb_descriptors.c.i
 .PHONY : usb_descriptors.c.i
 
 usb_descriptors.s: usb_descriptors.c.s
@@ -1621,7 +1645,7 @@ usb_descriptors.s: usb_descriptors.c.s
 
 # target to generate assembly for a file
 usb_descriptors.c.s:
-	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/dev_hid_composite.dir/build.make project/CMakeFiles/dev_hid_composite.dir/usb_descriptors.c.s
+	cd "/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build" && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/usb_descriptors.c.s
 .PHONY : usb_descriptors.c.s
 
 # Help Target
@@ -1633,7 +1657,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ELF2UF2Build"
-	@echo "... dev_hid_composite"
+	@echo "... project"
 	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.obj"
 	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.i"
 	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.s"
@@ -1731,6 +1755,9 @@ help:
 	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
 	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
+	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj"
+	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i"
+	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s"
 	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
 	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"

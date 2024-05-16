@@ -165,7 +165,7 @@
 /Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/pico-sdk/src/rp2040/hardware_structs/CMakeFiles/rebuild_cache.dir
 /Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 /Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
-/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/dev_hid_composite/CMakeFiles/dev_hid_composite.dir
-/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/dev_hid_composite/CMakeFiles/ELF2UF2Build.dir
-/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/dev_hid_composite/CMakeFiles/edit_cache.dir
-/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/dev_hid_composite/CMakeFiles/rebuild_cache.dir
+/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project/CMakeFiles/project.dir
+/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project/CMakeFiles/ELF2UF2Build.dir
+/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project/CMakeFiles/edit_cache.dir
+/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project/CMakeFiles/rebuild_cache.dir

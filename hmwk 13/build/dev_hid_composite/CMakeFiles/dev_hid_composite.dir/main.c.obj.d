@@ -97,4 +97,8 @@ dev_hid_composite/CMakeFiles/dev_hid_composite.dir/main.c.obj: \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
  /Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk\ 13/dev_hid_composite/usb_descriptors.h

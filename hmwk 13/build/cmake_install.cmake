@@ -40,7 +40,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/pico-sdk/cmake_install.cmake")
-  include("/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/dev_hid_composite/cmake_install.cmake")
+  include("/Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk 13/build/project/cmake_install.cmake")
 
 endif()
 

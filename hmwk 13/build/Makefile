@@ -182,17 +182,17 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
 #=============================================================================
-# Target rules for targets named dev_hid_composite
+# Target rules for targets named project
 
 # Build rule for target.
-dev_hid_composite: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dev_hid_composite
-.PHONY : dev_hid_composite
+project: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project
+.PHONY : project
 
 # fast build rule for target.
-dev_hid_composite/fast:
-	$(MAKE) $(MAKESILENT) -f dev_hid_composite/CMakeFiles/dev_hid_composite.dir/build.make dev_hid_composite/CMakeFiles/dev_hid_composite.dir/build
-.PHONY : dev_hid_composite/fast
+project/fast:
+	$(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/build
+.PHONY : project/fast
 
 #=============================================================================
 # Target rules for targets named ELF2UF2Build
@@ -204,7 +204,7 @@ ELF2UF2Build: cmake_check_build_system
 
 # fast build rule for target.
 ELF2UF2Build/fast:
-	$(MAKE) $(MAKESILENT) -f dev_hid_composite/CMakeFiles/ELF2UF2Build.dir/build.make dev_hid_composite/CMakeFiles/ELF2UF2Build.dir/build
+	$(MAKE) $(MAKESILENT) -f project/CMakeFiles/ELF2UF2Build.dir/build.make project/CMakeFiles/ELF2UF2Build.dir/build
 .PHONY : ELF2UF2Build/fast
 
 # Help Target
@@ -221,7 +221,7 @@ help:
 	@echo "... bs2_default_padded_checksummed_asm"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... bs2_default"
-	@echo "... dev_hid_composite"
+	@echo "... project"
 .PHONY : help
 
 

@@ -46,9 +46,7 @@ project/CMakeFiles/project.dir/usb_descriptors.c.obj: \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+ /Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk\ 13/project/tusb_config.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
@@ -73,6 +71,6 @@ project/CMakeFiles/project.dir/usb_descriptors.c.obj: \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid.h \
  /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
- /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.h \
+ /Users/nikhilnayak/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid.h \
  /Users/nikhilnayak/Downloads/Github/2024-ME433-NN/hmwk\ 13/project/usb_descriptors.h
